@@ -1,14 +1,14 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
-		"version": "${version}",
+		"group": "io.github.atomic-gong",
+		"id": "rebirth",
+		"version": "${1.0.0}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Rebirth",
+			"description": "A mod centered around making cheating death a little more interesting.",
 			"contributors": {
-				"Me!": "Owner"
+				"hebedebe//Atomic-Gong": "Owner"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
@@ -19,7 +19,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "com.rebirth.rebirth_mod.Rebirth"
 		},
 		"depends": [
 			{

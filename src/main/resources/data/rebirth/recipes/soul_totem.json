@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SWS",
+      "SRS",
+      "SWS"
+    ],
+    "key": {
+      "W": {
+        "tag": "minecraft:netherite_ingot"
+      },
+      "R": {
+        "item": "minecraft:totem_of_undying"
+      },
+      "S": {
+        "item": "minecraft:soul_sand"
+      }
+    },
+    "result": {
+      "item": "rebirth:soul_totem",
+      "count": 1
+    }
+  }
